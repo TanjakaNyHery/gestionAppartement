@@ -1,0 +1,90 @@
+.page{
+    width: 100%;
+    height: 100vh;
+    background: #363940;
+    position: absolute;
+}
+
+.formLogin{
+    width: 300px;
+    margin: 90px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.formE{
+    width: 300px;
+    margin: 45px auto;
+    padding: 30px 30px 40px 30px;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.element{
+    margin-bottom: 30px;
+}
+
+.element h3{
+    font-weight: 500;
+}
+
+.element label{
+    color: #3a3a3a;
+}
+
+.element input{
+    width: 95%;
+    height: 20px;
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+.element select{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+.loginbtn, .savebtn{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    background: #FFB423;
+    border: 1px solid #FFB423;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.loginbtn:hover, .savebtn:hover{
+    background: #FDDB3A;
+}
+
+.cancelbtn{
+    border-radius: 5px;
+    padding: 7px 38%;
+    text-decoration: none;
+    color: black;
+    background: #e7e6e6;
+    border: 1px solid #e7e6e6;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.cancelbtn:hover{
+    background: #fff;
+}

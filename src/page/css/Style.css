@@ -1,0 +1,194 @@
+.body{
+    margin-top: 0;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 250px);
+    height: 100vh;
+    background: #ebebeb;
+}
+
+.tete{
+    height: 85px;
+    background: #363940;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.search{
+    margin-right: 40px;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    border: none;
+    height: 90%;
+    background: white;
+}
+
+.corps{
+    width: 90%;
+    height: 400px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    background: white;
+}
+
+.corps .entete{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.corps .entete a{
+    padding: 6px 45px;
+    background: #FFB423;
+    border: 1px solid #FFB423;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.corps .entete a:hover{
+    background: white;
+    color: #FFB423;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form input, .form select{
+    width: 150px;
+    height: 30px;
+    padding: 7px;
+    border: none;
+    background: white;
+}
+
+.total{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.total input{
+    width: 200px;
+    height: 30px;
+    padding: 7px;
+    border: none;
+    background: white;
+    font-weight: 600;
+    color: black;
+}
+
+.corps .table{
+    height: 300px;
+}
+
+.corps .tableEtat{
+    height: 350px;
+}
+
+.corps .tablemvt{
+    height: 250px;
+}
+
+.corps table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.corps thead{
+    font-weight: 600;
+}
+
+.corps thead tr{
+    border-top: 1px solid #f0f0f0;
+}
+
+.corps td{
+    padding: 15px;
+    font-size: 14px;
+}
+
+.corps tr{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.corps .action{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.corps td button, .corps td a{
+    width: 70px;
+    background: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    color: #FFB423;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.corps td button:hover, .corps td a:hover{
+    border: 1px solid #FFB423;
+    background: #FFB423;
+    color: white;
+}
+
+.paginationBtn{
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginationBtn a{
+    padding: 5px 10px;
+    margin-top: 30px;
+    color: #363940;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.paginationBtn a:hover{
+    color: white;
+    background: #FFB423;
+    border-radius: 2px;
+}
+
+.paginationActive a{
+    color: white;
+    background: #FFB423;
+    border-radius: 2px;
+}
